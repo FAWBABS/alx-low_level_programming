@@ -1,6 +1,6 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
  * main - assigning a random number to a variable and checking if the last digit is 5, equals 0, and less than 6 and not 0
