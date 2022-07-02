@@ -3,9 +3,10 @@
 #include <time.h>
 
 /**
- * main - assigning a random number to a variable and checking if the last digit is 5, equals 0, and less than 6 and not 0
+ * main - entry point
+ *
  *Description: print last diit in random number
-
+ *
  * Return: Always 0(Success)
  */
 
