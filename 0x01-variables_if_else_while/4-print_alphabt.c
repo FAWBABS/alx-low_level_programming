@@ -14,14 +14,14 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (ch == 'q', 'e')
+		if (ch == 'q' 'e')
 		{
 			continue;
 		}
 
-		printf(ch);
+		putchar(ch);
 	}
-	printf('\n')
+	putchar('\n')
 
 	return (0);
 }
