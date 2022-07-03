@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - printing numbers in base 16 in lowercase
@@ -10,7 +11,7 @@ int main(void)
 	char ch;
 	int i;
 
-	for (i = '0'; i < '10'; i++)
+	for (i = 0; i < 10; i++)
 	{
 		putchar(i);
 	}
