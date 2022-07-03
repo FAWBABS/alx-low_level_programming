@@ -11,7 +11,7 @@ int main(void)
 	char ch;
 	int i;
 
-	for (i = 5; i <= 15; i++)
+	for (i = 48; i <= 57; i++)
 	{
 		putchar(i);
 	}
