@@ -11,9 +11,9 @@ int main(void)
 	char ch;
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i <= 10; i++)
 	{
-		putchar("%i",i);
+		putchar(i);
 	}
 	for (ch = 'a'; ch <= 'e'; ch++)
 	{
