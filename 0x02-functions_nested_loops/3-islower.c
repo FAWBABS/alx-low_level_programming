@@ -2,7 +2,7 @@
 /**
  * _islower - check if an alhpabet is in lowercase
  *
- * @c - contains value to be compared
+ * @c: contains value to be compared
  *
  * Return: Always 0
  */
