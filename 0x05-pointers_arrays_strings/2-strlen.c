@@ -7,7 +7,7 @@
  * Return: void thats means answer is correct
  */
 
-int -strlen(char *s)
+int _strlen(char *s)
 {
 	int u;
 
