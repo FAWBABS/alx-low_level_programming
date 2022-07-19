@@ -17,3 +17,13 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	return (dest);
 }
+
+int main()
+{
+	char src[] = "copy this";
+	char dest[100];
+
+	_memcpy(dest, src, strlen(src) + 1)
+
+	return (0);
+}
