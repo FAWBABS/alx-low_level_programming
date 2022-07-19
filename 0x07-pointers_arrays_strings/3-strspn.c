@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strpsn - returns the number of byte
+ * _strspn - returns the number of byte
  * @s: initial segment
  * @accept: bytes taken from
  * Return: Always 0
