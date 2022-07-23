@@ -5,6 +5,7 @@
  * @src: string to be copied
  * Return: a string
  */
+
 char *_strcat(char *dest, char *src)
 {
 	int i, j;
