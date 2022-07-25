@@ -1,1 +1,9 @@
-char *_strstr(char *haystack, char *needle);
+/** 
+ * _strstr - hshhsjjsu
+ * @haystack: jdjdjjsd
+ * @needle: jjds
+ */
+char *_strstr(char *dest, char *needle)
+{
+
+}
