@@ -5,7 +5,7 @@
 
 /**
  * check_num - check - string there are digit
- * @str; array str
+ * @str: array str
  *
  * Return: Always 0 (Success)
  */
@@ -18,7 +18,7 @@ int check_num(char *str)
 	while (count < strlen(str))
 
 	{
-		if(!isdigit(str[count]))
+		if (!isdigit(str[count]))
 		{
 			return (0);
 		}
@@ -32,7 +32,7 @@ int check_num(char *str)
  * @argc: Count arguments
  * @argv: arguments
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(int argc, char *argv[])
@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 	count = 1;
 	while (count < argc)
 	{
-		if(check_num(argv[count]))
+		if (check_num(argv[count]))
 
 		{
 			str_to_int = atoi(argv[count]);
