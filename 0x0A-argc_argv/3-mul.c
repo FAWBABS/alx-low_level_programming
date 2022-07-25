@@ -6,20 +6,20 @@
  * main - multiply 2 numbers
  * @argc: argument count
  * @argv: argument
- * Return: void
+ * Return: 0 if true, 1 if false
  */
 
 int main(int argc, char *argv)
 {
-	int i;
+	int a, b;
 
-	int result = 1;
-
-	for (i = 1; argc > 1; i++)
+	if (argc == 3)
 	{
-		result = result * strtol(argv[i], NULL, 10);
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		printf("%d\n", a *b);
+		return (0);
 	}
-	printf("%d\n", result);
-
+	printf("Error\n");
 	return (0);
 }
