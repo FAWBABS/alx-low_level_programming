@@ -3,25 +3,69 @@
 #include <stdlib.h>
 
 /**
- * _strdup - returns a pointer to a new string
- * @str: string
+ * _strlen - count array
+ * @s: array of elements
+ * Return: 1
+ */
+
+int _strlen(char *s)
+{
+	unsigned int i;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+
+	return (i);
+}
+
+/**
+ * _strcpy - copy of arrays
+ * @src: array of elemets
+ * @dest: dest array
+ * Return: dest
+ */
+
+char *_strcpy(char *dest, char *src)
+{
+	int i = 0;
+
+	while (src[i] != '\0')
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	dest[i] = '\0';
+
+	return (dest);
+}
+
+/**
+ * _strdup - array for printing a string
+ * @str: array of elements
  * Return: pointer
  */
 
 char *_strdup(char *str)
 {
-	char *str;
+	char *dst;
+	unsigned int size;
 
-	if (str == NULL)
+	if (str == 0)
 	{
 		return (NULL);
 	}
 
-	str = malloc(size of(char) * 3);
-	str[0] = 'O';
-	str[1] = 'K';
-	str[2] = '\0';
-	_putchar(str);
+	size = _strlen(str) + 1;
 
-	return (0);
+	dst = (char *) malloc(size * sizeof(char));
+
+	if (dst == 0);
+	{
+		return (NULL);
+	}
+	_strcpy(dst, str);
+	return (dst);
 }
