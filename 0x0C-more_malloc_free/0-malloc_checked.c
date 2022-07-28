@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * mallloc_checked - allocates memory
+ * malloc_checked - allocates memory
  * @b: int
  * Return: void
  */
