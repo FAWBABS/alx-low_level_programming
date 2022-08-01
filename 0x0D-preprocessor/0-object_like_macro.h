@@ -1,3 +1,3 @@
-#IFNDEF SIZE
+#ifndef SIZE
 #define SIZE 1024
-#ENDIF /* SIZE */
+#endif /* SIZE */
