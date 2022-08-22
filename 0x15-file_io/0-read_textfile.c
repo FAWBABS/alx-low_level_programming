@@ -20,10 +20,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	file = open(filename, O_RDONLY);
 	if (file == -1)
 		return (0);
-	fread = read(file, totalsize, letters);
+	fread = read(file, totalSize, letters);
 	if (fread == -1)
 		return (0);
-	fwrite = writes(STDOUT_FILENO, totalSize, fread);
+	fwrite = write(STDOUT_FILENO, totalSize, fread);
 	if (fwrite == -1)
 		return (0);
 	close(file);
