@@ -7,4 +7,8 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int is_palindrome(char *s);
+<<<<<<< HEAD
 
+=======
+int wildcmp(char *s1, char *s2);
+>>>>>>> a6f58cc1feaf62bacbfbdc535e54acfa657e887c
